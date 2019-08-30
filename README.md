@@ -53,8 +53,8 @@ Las embarcaciones que ocupan la plataforma satelital Seatel (de la firma Cobham)
 
 
 ### Extra: CHILE ARMY !!!
-![chile_army](img/2.jpeg)
-![chile_army](img/4.jpeg)
+![chile_army_1](img/2.jpg)
+![chile_army_2](img/4.jpeg)
 
 
 ### Blog:

@@ -4,7 +4,7 @@ Las embarcaciones que ocupan la plataforma satelital Seatel (de la firma Cobham)
 ![seatel_home](img/Radomos.jpg) 
 
 
-#  [Exploit] show DVR Credentiales
+#  [Exploit] Terminales Seatel 
 
 	[*] Exploit Title:      "Sensitive exposure from Seatel satellite terminal" 
 	[*] CVE:                 CVE-2018-5728

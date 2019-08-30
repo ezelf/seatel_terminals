@@ -17,7 +17,7 @@ Las embarcaciones que ocupan la plataforma satelital Seatel (de la firma Cobham)
 ### Simple PoC:
 
 ```
-	$> curl "http://<dvr_host>:<port>/cgi-bin/getSysStatus"
+	$> curl "http://<seatel_host>:<port>/cgi-bin/getSysStatus"
 
 ```
 ## In the Wild:

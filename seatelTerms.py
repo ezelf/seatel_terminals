@@ -42,11 +42,11 @@ Powered By: @capitan_alfa
 print bannerX
 parser = argparse.ArgumentParser(prog='seaTel.py',
 								description=' [+] Where are you ship ?', 
-								epilog='python seaTel.py --host 100.42.11.76 ',
+								epilog=' usr@pwn:~$ python seaTel.py --host <host>\n',
 								version="1.2")
 
 parser.add_argument('--host', 	dest="HOST",  	help='Host',	required=True)
-parser.add_argument('--port', 	dest="PORT",  	help='Port',	default=80)
+parser.add_argument('--port', 	dest="PORT",  	help='Port (default 80)',	default=80)
 
 args	= 	parser.parse_args()
 
